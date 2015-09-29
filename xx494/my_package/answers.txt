@@ -1,0 +1,55 @@
+IPython
+Question1: 
+import os.path
+
+?os.path.abspath
+Type:       function
+String Form:<function abspath at 0x7ff8707549b0>
+File:       /usr/lib/python2.7/posixpath.py
+Definition: os.path.abspath(path)
+Docstring:  Return an absolute path.
+
+Question 2:
+num = ! ls -l /etc |wc -l
+
+print num
+['233']
+
+Question 3:
+import math
+a = int(num[0])
+result = math.sqrt(a)
+print result
+15.2643375225
+
+Question 4:
+import numpy
+x = 12345
+%timeit x**2
+10000000 loops, best of 3: 66.2 ns per loop
+
+%timeit x*x
+10000000 loops, best of 3: 44.8 ns per loop
+
+%timeit numpy.square(x)
+1000000 loops, best of 3: 1.35 µs per loop
+
+numpy.square(x) is the fatest method.
+
+Question 5:
+%lsmagic
+Out[29]: 
+Available line magics:
+%alias  %alias_magic  %autocall  %automagic  %autosave  %bookmark  %cd  %clear  %colors  %config  %connect_info  %debug  %dhist  %dirs  %doctest_mode  %ed  %edit  %env  %gui  %guiref  %hist  %history  %install_default_config  %install_ext  %install_profiles  %killbgscripts  %less  %load  %load_ext  %loadpy  %logoff  %logon  %logstart  %logstate  %logstop  %lsmagic  %macro  %magic  %man  %matplotlib  %more  %notebook  %page  %pastebin  %pdb  %pdef  %pdoc  %pfile  %pinfo  %pinfo2  %popd  %pprint  %precision  %profile  %prun  %psearch  %psource  %pushd  %pwd  %pycat  %pylab  %qtconsole  %quickref  %recall  %rehashx  %reload_ext  %rep  %rerun  %reset  %reset_selective  %run  %save  %sc  %store  %sx  %system  %tb  %time  %timeit  %unalias  %unload_ext  %who  %who_ls  %whos  %xdel  %xmode
+
+Available cell magics:
+%%!  %%HTML  %%SVG  %%bash  %%capture  %%debug  %%file  %%html  %%javascript  %%latex  %%perl  %%prun  %%pypy  %%python  %%python3  %%ruby  %%script  %%sh  %%svg  %%sx  %%system  %%time  %%timeit  %%writefile
+
+Automagic is ON, % prefix IS NOT needed for line magics.
+
+There are 24 cell magic commands.
+
+
+PyDev 
+Question 5:
+Hello World!
